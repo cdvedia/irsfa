@@ -21,7 +21,7 @@ composer require cdvedia/irsfa
 ## Configuration
 To get started, you'll need to publish vendor assets for Irsfa.
 ```bash
-php artisan vendor:publish --provider=Cdvedia\Irsfa\IrsfaServiceProvider
+php artisan vendor:publish --tag=irsfa-config
 ```
 This will create the `config/irsfa.php` file in your app, modify it to set your configuration.
 
