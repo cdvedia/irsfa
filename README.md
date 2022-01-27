@@ -1,4 +1,4 @@
-# Laravel Irsfa Api
+# Laravel IRSFA
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/cdvedia/irsfa.svg?style=flat-square)](https://packagist.org/packages/cdvedia/irsfa)
 [![Total Downloads](https://img.shields.io/packagist/dt/cdvedia/irsfa.svg?style=flat-square)](https://packagist.org/packages/cdvedia/irsfa)
@@ -6,6 +6,9 @@
 
 
 This package support IRSFA API for Laravel 8 version. Please reffer to this site https://aksaradata.id/ for more information.
+
+## Documentation
+For the API documentation, check [Irsfa Api Developer](https://developer.irsfa.id/documentation/?php#introductions)
 
 ## Installation
 
@@ -15,11 +18,25 @@ You can install the package via composer:
 composer require cdvedia/irsfa
 ```
 
+## Configuration
+To get started, you'll need to publish vendor assets for Irsfa.
+```bash
+php artisan vendor:publish --provider=Cdvedia\Irsfa\IrsfaServiceProvider
+```
+This will create the `config/irsfa.php` file in your app, modify it to set your configuration.
+
 ## Usage
+### Via Facade
+If you prefer the classic Laravel facade style, this might be the way to go, for example:
 
 ```php
-$contacts = \Irsfa::getContact();
+use Cdvedia\Irsfa\Facades\Irsfa;
+# or
+use Irsfa;
+
+Irsfa::getToken();
 ```
+For more information on how to use the other class, check out the awesome wiki [documentation](../../wiki).
 
 ### Testing
 
