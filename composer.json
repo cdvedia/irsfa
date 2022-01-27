@@ -45,10 +45,7 @@
         "laravel": {
             "providers": [
                 "Cdvedia\\Irsfa\\IrsfaServiceProvider"
-            ],
-            "aliases": {
-                "Irsfa": "Cdvedia\\Irsfa\\Facades\\Irsfa"
-            }
+            ]
         }
     }
 }
