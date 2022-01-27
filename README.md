@@ -1,4 +1,4 @@
-# Very short description of the package
+# Laravel Irsfa Api
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/cdvedia/irsfa.svg?style=flat-square)](https://packagist.org/packages/cdvedia/irsfa)
 [![Total Downloads](https://img.shields.io/packagist/dt/cdvedia/irsfa.svg?style=flat-square)](https://packagist.org/packages/cdvedia/irsfa)
