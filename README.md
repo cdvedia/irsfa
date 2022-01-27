@@ -41,7 +41,7 @@ If you discover any security related issues, please email cecepaprilianto@gmail.
 
 ## Credits
 
--   [Cecep Aprilianto](https://github.com/cdvedia)
+-   [Cecep Aprilianto](https://github.com/apriliantocecep)
 -   [All Contributors](../../contributors)
 
 ## License
