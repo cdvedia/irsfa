@@ -2,10 +2,8 @@
 
 namespace Cdvedia\Irsfa;
 
-class DnsManager
+class DnsManager extends AbstractClass
 {
-    use Traits\AuthorizationRequest;
-
     /**
      * Create DNS Manager
      * @see https://developer.irsfa.id/documentation/#create-dns-manager

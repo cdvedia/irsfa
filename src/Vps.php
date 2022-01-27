@@ -2,10 +2,8 @@
 
 namespace Cdvedia\Irsfa;
 
-class Vps
+class Vps extends AbstractClass
 {
-    use Traits\AuthorizationRequest;
-
     /**
      * Get VPS Product
      * @see https://developer.irsfa.id/documentation/?php#get-vps-product

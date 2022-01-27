@@ -2,10 +2,8 @@
 
 namespace Cdvedia\Irsfa;
 
-class Contact
+class Contact extends AbstractClass
 {
-    use Traits\AuthorizationRequest;
-
     /**
      * Get Contact/Registrant List
      * @see https://developer.irsfa.id/documentation/?php#get-contactregistrant-list

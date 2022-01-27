@@ -2,10 +2,8 @@
 
 namespace Cdvedia\Irsfa;
 
-class ChildNameserver
+class ChildNameserver extends AbstractClass
 {
-    use Traits\AuthorizationRequest;
-
     /**
      * Register Child Nameserver
      * @see https://developer.irsfa.id/documentation/?php#register-child-nameserver

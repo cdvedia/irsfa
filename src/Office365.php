@@ -2,10 +2,8 @@
 
 namespace Cdvedia\Irsfa;
 
-class Office365
+class Office365 extends AbstractClass
 {
-    use Traits\AuthorizationRequest;
-
     /**
      * Get Product Office365
      * @see https://developer.irsfa.id/documentation/?php#get-product-office365

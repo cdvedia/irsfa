@@ -2,10 +2,8 @@
 
 namespace Cdvedia\Irsfa;
 
-class Domain
+class Domain extends AbstractClass
 {
-    use Traits\AuthorizationRequest;
-
     /**
      * Domain Availability
      * @see https://developer.irsfa.id/documentation/#lookup-domain

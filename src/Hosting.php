@@ -2,10 +2,8 @@
 
 namespace Cdvedia\Irsfa;
 
-class Hosting
+class Hosting extends AbstractClass
 {
-    use Traits\AuthorizationRequest;
-
     /**
      * Get Hosting Product
      * @see https://developer.irsfa.id/documentation/?php#get-hosting-product
